@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/grey"
+    >
+
+
+
+
+    <TextView
+        android:id="@+id/tvin"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/darkgrey"
+        android:gravity="bottom|end"
+        android:padding="5sp"
+        android:textSize="42sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:onClick="click"
+            android:layout_margin = "8dp"
+            android:id="@+id/buttonsev"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/_7"
+            tools:ignore="NestedWeights" />
+
+        <Button
+            android:onClick="click"
+            android:layout_margin = "8dp"
+            android:id="@+id/buttoneig"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/_8" />
+        <Button
+            android:onClick="click"
+            android:layout_margin = "8dp"
+            android:id="@+id/buttonnin"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/_9" />
+        <Button
+            android:layout_margin = "8dp"
+            android:id="@+id/buttondiv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/divide" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonfou"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin = "8dp"
+            android:layout_weight="1"
+            android:onClick="click"
+            android:text="@string/_4"
+            tools:ignore="NestedWeights" />
+
+        <Button
+            android:onClick="click"
+            android:id="@+id/buttonfiv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin = "8dp"
+            android:layout_weight="1"
+            android:text="@string/_5" />
+
+        <Button
+            android:onClick="click"
+            android:id="@+id/buttonsix"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin = "8dp"
+            android:layout_weight="1"
+            android:text="@string/_6" />
+
+        <Button
+
+            android:id="@+id/buttonmin"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin = "8dp"
+            android:layout_weight="1"
+            android:text="@string/minus" />
+
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_weight="1">
+
+    <Button
+        android:onClick="click"
+        android:layout_margin = "8dp"
+        android:id="@+id/buttonone"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/_1"
+        tools:ignore="NestedWeights" />
+    <Button
+        android:onClick="click"
+        android:layout_margin = "8dp"
+        android:id="@+id/buttontwo"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/_2" />
+    <Button
+        android:onClick="click"
+        android:layout_margin = "8dp"
+        android:id="@+id/buttonthr"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/_3" />
+    <Button
+        android:layout_margin = "8dp"
+        android:id="@+id/buttonmul"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/x" />
+
+</LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_weight="1">
+
+        <Button
+            android:onClick="click"
+            android:layout_margin = "8dp"
+            android:id="@+id/buttondot"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="50sp"
+            android:layout_weight="1"
+            android:text="@string/Dot"
+            tools:ignore="NestedWeights,SmallSp" />
+
+
+    <Button
+        android:onClick="click"
+        android:layout_margin = "8dp"
+        android:id="@+id/buttonzer"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/_0"
+        tools:ignore="NestedWeights" />
+    <Button
+        android:onClick="clear"
+        android:layout_margin = "8dp"
+        android:id="@+id/buttonclr"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/c" />
+
+    <Button
+        android:layout_margin = "8dp"
+        android:id="@+id/buttonplus"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/plus" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:onClick="equal"
+            android:layout_margin = "5dp"
+            android:id="@+id/buttonequ"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="@string/equal" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
