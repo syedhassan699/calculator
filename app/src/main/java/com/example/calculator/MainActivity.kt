@@ -1,11 +1,13 @@
 package com.example.calculator
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import java.lang.ArithmeticException
 
 class MainActivity : AppCompatActivity() {
     var tvin:TextView ? = null
@@ -22,7 +24,16 @@ class MainActivity : AppCompatActivity() {
         tvin?.text = ""
     }
 
-    fun equal(view: View) {
-        
+    @SuppressLint("SetTextI18n")
+    fun sum(view: View) {
+        val tvNew = tvin?.text.toString()
+        try {
+            val splitValue = tvNew.split("+")
+            var one = splitValue[0]
+            var two = splitValue[1]
+            tvin?.text = (one + two).toInt().toString()
+        }catch (e:ArithmeticException)
+        {e.printStackTrace()}
+        println()
     }
 }

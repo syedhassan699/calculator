@@ -54,6 +54,7 @@
             android:layout_weight="1"
             android:text="@string/_9" />
         <Button
+            android:onClick="click"
             android:layout_margin = "8dp"
             android:id="@+id/buttondiv"
             android:layout_width="0dp"
@@ -98,7 +99,7 @@
             android:text="@string/_6" />
 
         <Button
-
+            android:onClick="click"
             android:id="@+id/buttonmin"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -139,6 +140,7 @@
         android:layout_weight="1"
         android:text="@string/_3" />
     <Button
+        android:onClick="click"
         android:layout_margin = "8dp"
         android:id="@+id/buttonmul"
         android:layout_width="0dp"
@@ -184,6 +186,7 @@
         android:text="@string/c" />
 
     <Button
+        android:onClick="click"
         android:layout_margin = "8dp"
         android:id="@+id/buttonplus"
         android:layout_width="0dp"
@@ -199,7 +202,7 @@
         android:layout_weight="1">
 
         <Button
-            android:onClick="equal"
+            android:onClick="sum"
             android:layout_margin = "5dp"
             android:id="@+id/buttonequ"
             android:layout_width="0dp"
