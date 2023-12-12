@@ -18,4 +18,5 @@
     <string name="plus">+</string>
     <string name="equal">=</string>
     <string name="Dot">.</string>
+    <string name="multiply">*</string>
 </resources>
